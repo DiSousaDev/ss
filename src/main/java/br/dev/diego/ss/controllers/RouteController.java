@@ -1,6 +1,5 @@
 package br.dev.diego.ss.controllers;
 
-import com.nimbusds.jwt.JWT;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.core.annotation.AuthenticationPrincipal;
 import org.springframework.security.oauth2.core.oidc.user.OidcUser;
