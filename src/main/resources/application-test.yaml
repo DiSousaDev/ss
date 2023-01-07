@@ -1,0 +1,24 @@
+## Dados de conexão com o banco H2
+#spring.datasource.url=jdbc:h2:mem:testdb
+#spring.datasource.username=sa
+#spring.datasource.password=
+#
+## Configuração do cliente web do banco H2
+#spring.h2.console.enabled=true
+#
+## Configuração para mostrar o SQL no console
+#spring.jpa.show-sql=true
+#spring.jpa.properties.hibernate.format_sql=true
+#
+#aw.auth.provider-uri="http://localhost:8080"
+spring:
+  security:
+    oauth2:
+      client:
+        registration:
+          google:
+            client-id: 774579404297-39kidaljegji0nupc0sq3divm9bcm5tu.apps.googleusercontent.com
+            client-secret: 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
+      resourceserver:
+        jwt:
+          issuer-uri: https://accounts.google.com
